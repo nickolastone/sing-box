@@ -112,11 +112,11 @@ UDP NAT expiration time in seconds, default is 300 (5 minutes).
 
 TCP/IP stack.
 
-| Stack            | Description                                                                      | Status            |
-|------------------|----------------------------------------------------------------------------------|-------------------|
-| system (default) | Sometimes better performance                                                     | recommended       |
-| gVisor           | Better compatibility, based on [google/gvisor](https://github.com/google/gvisor) | recommended       |
-| LWIP             | Based on [eycorsican/go-tun2socks](https://github.com/eycorsican/go-tun2socks)   | upstream archived |
+| Stack                        | Description                                                                      | Status            |
+|------------------------------|----------------------------------------------------------------------------------|-------------------|
+| system (default)             | Sometimes better performance                                                     | recommended       |
+| gVisor (default if included) | Better compatibility, based on [google/gvisor](https://github.com/google/gvisor) | recommended       |
+| LWIP                         | Based on [eycorsican/go-tun2socks](https://github.com/eycorsican/go-tun2socks)   | upstream archived |
 
 !!! warning ""
 
